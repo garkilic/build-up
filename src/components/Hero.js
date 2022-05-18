@@ -1,5 +1,6 @@
 import React from 'react'
-import exercise from './img/exercise.png'
+import exercise from '../img/exercise.png'
+import '../style.css'
 
 export default function Hero() {
     return (

@@ -1,8 +1,8 @@
 import React from 'react';
-import Nav from "./Nav";
-import Hero from "./Hero"
-import About from "./About"
-import Training from './Training';
+import Nav from "./components/Nav";
+import Hero from "./components/Hero"
+import About from "./components/About"
+import Training from "./components/Training";
 
 
 export default function App() {
