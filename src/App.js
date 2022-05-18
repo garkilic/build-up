@@ -1,18 +1,18 @@
 import React from 'react';
+import Nav from "./Nav";
+import Hero from "./Hero"
+import About from "./About"
+import Training from './Training';
 
-function App() {
-  return (
-    <div style={{ textAlign: 'center' }}>
-      <header>
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+export default function App() {
+    return (
+        <div>
+            <Nav />
+            <Hero />
+            <About />
+            <Training />
+        </div>
+       
+    )
 }
-
-export default App;
