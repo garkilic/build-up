@@ -20,10 +20,13 @@ export default function Training() {
             
             <div className="training--pricing">
              <h2>Pricing:</h2>
-                <p>$50 One Time Purchase. <br/> <em>50% goes to your personal traininer</em></p>
+                <p>Benefits</p>
                 <ul className="training--list">
-                    <li>Workout PDF</li>
-                    <li>3 month workout plan (yours forever)</li>
+                    <li>No more guesswork! Finally, a workout plan that fits your needs</li>
+                    <li>Simple plan you can stick to</li>
+                    <li>Time and science based workouts that fit your schedule</li>
+                    <li>75% less expensive than the competition</li>
+                    <li>Fitness that cares about you</li>
                 </ul>
             </div> 
            
