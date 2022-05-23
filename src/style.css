@@ -210,7 +210,7 @@ h1 {
 
 .training--section {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: space-around;
     gap: 1.9rem;
@@ -219,8 +219,8 @@ h1 {
 
 .training--pricing {
     padding: 3em 1em;
-    background-color:#02F7B7;
-    color: black;
+    background-color:#1792d2;
+    color: white;
     border-radius: 5px;
 
     text-align: center;
@@ -236,7 +236,7 @@ h1 {
 }
 
 .training--color {
-    color: #02F7B7;
+    color: #1792d2;
     margin-bottom: 0;
 }
 
@@ -250,6 +250,21 @@ h1 {
     
 }
 
+
+.footer {
+    text-align: center;
+}
+
+.footer--links {
+    padding: 0;
+    list-style-type: none;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #1792d2;
+    font-weight: 700;
+}
 
 
 @media (max-width: 625px){

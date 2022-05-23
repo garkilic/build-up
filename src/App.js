@@ -3,6 +3,7 @@ import Nav from "./components/Nav";
 import Hero from "./components/Hero"
 import About from "./components/About"
 import Training from "./components/Training";
+import Footer from './components/Footer';
 
 
 export default function App() {
@@ -12,6 +13,7 @@ export default function App() {
             <Hero />
             <About />
             <Training />
+            <Footer />
         </div>
        
     )
