@@ -6,7 +6,7 @@ export default function Nav() {
         <header className="container container--flex">
             <div className="navbar">
                     <div>
-                        <h2 className="navbar--title">Simple Fitness</h2>
+                        <h2 className="navbar--title">Build Up</h2>
                     </div>
 
                     <nav>
