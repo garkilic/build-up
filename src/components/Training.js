@@ -5,28 +5,18 @@ import '../style.css'
 export default function Training() {
     return (
         <section className=" training--section container">
-             <div className="training--pricing">
-             <h2>Pricing:</h2>
-                <p>Benefits</p>
+             <div className="training--pricing" id="pricing">
+             <h2>Early Bird Offering</h2>
+                <h3>$50 for 3 month plan</h3>
                 <ul className="training--list">
-                    <li>No more guesswork! Finally, a workout plan that fits your needs</li>
-                    <li>Simple plan you can stick to</li>
+                    <li>No more guesswork! An easy to follow workout plan personalized to you.</li>
+                    <li>No expensive apps or equipment needed.</li>
                     <li>Time and science based workouts that fit your schedule</li>
-                    <li>75% less expensive than the competition</li>
-                    <li>Fitness that cares about you</li>
+                    <li>No monthly subscriptions.</li>
+                    <li>Team that cares about you.</li>             
                 </ul>
-            </div> 
-            
-            <div className="training--text">
-                <h2 className='training--explainer'>
-                    <span>No More Fitness Apps.</span> <br />
-                    <span className="training--color">Simple, Effective, Affordable, exercise.</span>
-                </h2>
-                <p className='training--maintext'>
-                    Workout created for you, by a personal trainer, with no monthly fee.<br /> Just you and your workout for one low price.
-                </p>
                 <a className="signup" href="#">Try Now!</a>
-            </div>
+            </div> 
         </section>
     )
 }

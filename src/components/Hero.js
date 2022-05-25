@@ -7,7 +7,7 @@ export default function Hero() {
         <section className=" hero container">
             <div className="hero--text">
                 <h1 className='hero--explainer'>
-                    <span>Affordable Workouts.</span> <br />
+                    <span>Exercise Made Simple.</span> <br />
                     <span className="hero--color">Finally.</span>
                 </h1>
                 <p className='hero--maintext'>

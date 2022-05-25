@@ -24,6 +24,10 @@ body {
     --fs-body: 1rem;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* Formatting */
 
 h1 {
@@ -163,6 +167,9 @@ h1 {
     text-align: center;
 }
 
+.containers p {
+    font-weight: 700;
+}
 
 
 .container--one {
@@ -211,7 +218,7 @@ h1 {
 
 .training--section {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: space-around;
     gap: 1.9rem;
@@ -237,17 +244,19 @@ h1 {
 
 .training--color {
     color: var(--clr-light);
-    margin-bottom: 0;
 }
 
 .training--maintext {
-    margin-bottom: 3em;
+    margin-bottom: 3rem;
 }
 
 .training--list {
     text-align: center;
     list-style-type: none;
-    
+}
+
+.training--list li{
+    padding: 1em 0;
 }
 
 @media (max-width: 625px) {
@@ -260,6 +269,7 @@ h1 {
 
 .footer {
     text-align: center;
+    margin-top: 5rem;
 }
 
 .footer--links {

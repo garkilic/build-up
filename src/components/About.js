@@ -8,23 +8,23 @@ import { FaRegGrin } from "react-icons/fa";
 
 export default function About() {
     return (
-        <div className="containers container">
+        <div className="containers container" id='about'>
             <div className="container--one">
                 <FaQuestion className="containers--icon" />
                 <h2>Tell Us Your Goals</h2>
-                <p>Answer a few questions that will help your personal trainer create the best workout plan to help you reach your goals. </p>
+                <p>Answer 10 simple questions that will help your personal trainer create the best workout plan for you. </p>
             </div>
 
             <div className="container--two">
                 <FaPaperPlane className="containers--icon"/>
                 <h2>Receive Your Plan</h2>
-                <p>Within 48 hours, you will receive your custom workout plan via email. This plan is yours to keep forever and will help you workout confident that you are doing the right exercises.</p>
+                <p>Within 48 hours, you will receive your custom workout plan via email.</p>
             </div>
 
             <div className="container--three">
                 <FaRegGrin className="containers--icon"/>
-                <h2>Stay In Touch</h2>
-                <p>After you receive your plan it is up to you to execute. We will be here to answer any questions you may have, so feel free to keep in touch with any comments, concerns, or ideas! </p>
+                <h2>Follow Your Plan</h2>
+                <p>Follow your personalized plan and reap the benefits of a workout made for you.</p>
             </div>
         </div>
 
