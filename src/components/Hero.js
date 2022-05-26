@@ -13,7 +13,7 @@ export default function Hero() {
                 <p className='hero--maintext'>
                     Workout created for you, by a personal trainer, with no monthly fee.<br /> Just you and your workout for one low price.
                 </p>
-                <a className="signup" href="#">Sign Up</a>
+                <a className="signup" href="#about">Sign Up</a>
             </div>
             
             <div>
