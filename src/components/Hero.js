@@ -17,7 +17,7 @@ export default function Hero() {
             </div>
             
             <div>
-                <img className="hero--img"src={exercise}></img>
+                <img className="hero--img"src={exercise} alt="person exercising"></img>
             </div> 
 
         </section>

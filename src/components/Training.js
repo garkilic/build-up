@@ -15,7 +15,7 @@ export default function Training() {
                     <li>No monthly subscriptions.</li>
                     <li>Team that cares about you.</li>             
                 </ul>
-                <a className="signup" href="#">Try Now!</a>
+                <a className="signup" href="#about">Try Now!</a>
             </div> 
         </section>
     )

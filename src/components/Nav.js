@@ -14,7 +14,7 @@ export default function Nav() {
                             <li><a href="#about">About</a></li>
                             <li><a href="#pricing">Pricing</a></li>
                             <li><a href="mailto:tryagainlabs@gmail.com" target="_blank" rel="noopener noreferrer">Contact</a></li>
-                            <li className="navbar--signup"><a href="#">Sign Up</a></li>
+                            <li className="navbar--signup"><a href="#about">Sign Up</a></li>
                         </ul>
                        
                     </nav>
