@@ -4,7 +4,7 @@ import Hero from "./components/Hero"
 import About from "./components/About"
 import Training from "./components/Training";
 import Footer from './components/Footer';
-import Test from './components/Test';
+
 
 
 export default function App() {
