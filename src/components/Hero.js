@@ -7,11 +7,11 @@ export default function Hero() {
         <section className=" hero container">
             <div className="hero--text">
                 <h1 className='hero--explainer'>
-                    <span>Exercise Made Simple.</span> <br />
+                    <span>Workout Plans Made Simple.</span> <br />
                     <span className="hero--color">Finally.</span>
                 </h1>
                 <p className='hero--maintext'>
-                    Workout created for you, by a personal trainer, with no monthly fee.<br /> Just you and your workout for one low price.
+                    Get a 6-month customized workout plan for just one single payment.
                 </p>
                 <a className="signup" href="#about">Sign Up</a>
             </div>

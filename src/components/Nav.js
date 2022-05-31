@@ -1,5 +1,6 @@
 import React from "react"
 import "../style.css"
+import {Routes, Route, Link} from "react-router-dom"
 
 export default function Nav() {
     return (
@@ -11,6 +12,7 @@ export default function Nav() {
 
                     <nav>
                         <ul className="navbar--items">
+                            <Link to="/Tes"></Link>
                             <li><a href="#about">About</a></li>
                             <li><a href="#pricing">Pricing</a></li>
                             <li><a href="mailto:tryagainlabs@gmail.com" target="_blank" rel="noopener noreferrer">Contact</a></li>

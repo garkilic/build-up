@@ -7,7 +7,6 @@ body {
     margin: 0;
     line-height: 1.6;
     letter-spacing: 1.2px;
-    font-size: 1rem;
 }
 
 :root {
@@ -58,6 +57,7 @@ h1 {
     background: var(--clr-dark);
     text-decoration: none;
     font-weight: var(--fw-heavy);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 /* Navigation */
@@ -80,6 +80,7 @@ h1 {
 
 .navbar--items {
     padding: 0;
+    font-size: 1em;
     list-style: none;
     display: flex;
     justify-content: center;
@@ -171,13 +172,18 @@ h1 {
     font-weight: 700;
 }
 
+    .container--one,
+    .container--two, 
+    .container--three {
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
 
 .container--one {
     padding: 3em 1em;
     color: black;
     border-radius: 5px;
     width: 28%;
-    border: 1px black solid;
+    border: 1px #4e5257 solid;
 }
 
 .container--two {
@@ -210,6 +216,7 @@ h1 {
     .container--two, 
     .container--three {
         width: 100%;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     }
 }
 
@@ -232,6 +239,7 @@ h1 {
     border-radius: 5px;
     text-align: center;
     margin: 2em 0;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .training--text {
