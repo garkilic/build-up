@@ -8,7 +8,6 @@ export default function Nav() {
                     <div>
                         <h2 className="navbar--title">Build Up</h2>
                     </div>
-
                     <nav>
                         <ul className="navbar--items">
                             <li><a href="#about">About</a></li>
@@ -16,7 +15,6 @@ export default function Nav() {
                             <li><a href="mailto:tryagainlabs@gmail.com" target="_blank" rel="noopener noreferrer">Contact</a></li>
                             <li className="navbar--signup"><a href="#about">Sign Up</a></li>
                         </ul>
-                       
                     </nav>
             </div>
         </header>
