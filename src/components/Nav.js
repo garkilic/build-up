@@ -1,9 +1,5 @@
 import React from "react";
 import "../style.css";
-import { createPopup } from "@typeform/embed";
-import "@typeform/embed/build/css/popup.css";
-
-const { toggle } = createPopup("<nuT2Tr4W>");
 
 export default function Nav() {
 	return (
@@ -31,7 +27,7 @@ export default function Nav() {
 							</a>
 						</li>
 						<li className="navbar--signup">
-							<a onClick={toggle}>Sign Up</a>
+							<a href="#">Sign Up</a>
 						</li>
 					</ul>
 				</nav>

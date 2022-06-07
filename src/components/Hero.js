@@ -1,10 +1,6 @@
 import React from "react";
 import exercise from "../img/exercise.png";
 import "../style.css";
-import { createPopup } from "@typeform/embed";
-import "@typeform/embed/build/css/popup.css";
-
-const { toggle } = createPopup("<nuT2Tr4W>");
 
 export default function Hero() {
 	return (
@@ -17,7 +13,7 @@ export default function Hero() {
 				<p className="hero--maintext">
 					Get a 6-month customized workout plan for just one single payment.
 				</p>
-				<a className="signup" onClick={toggle}>
+				<a className="signup" href="#">
 					Sign Up
 				</a>
 			</div>
