@@ -29,8 +29,10 @@ export default function Nav() {
 								Contact
 							</a>
 						</li>
-						<li className="navbar--signup">
-							<button onClick={toggle}>Sign Up</button>
+						<li>
+							<a className="navbar--signup" onClick={toggle} href="#">
+								Sign Up
+							</a>
 						</li>
 					</ul>
 				</nav>
