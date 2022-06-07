@@ -30,9 +30,9 @@ export default function Nav() {
 							</a>
 						</li>
 						<li>
-							<a className="navbar--signup" onClick={toggle}>
+							<button className="navbar--signup" onClick={toggle}>
 								Sign Up
-							</a>
+							</button>
 						</li>
 					</ul>
 				</nav>
