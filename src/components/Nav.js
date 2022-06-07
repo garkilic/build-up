@@ -30,7 +30,7 @@ export default function Nav() {
 							</a>
 						</li>
 						<li>
-							<a className="navbar--signup" onClick={toggle} href="#">
+							<a className="navbar--signup" onClick={toggle}>
 								Sign Up
 							</a>
 						</li>
