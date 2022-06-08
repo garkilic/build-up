@@ -3,7 +3,7 @@ import "../style.css";
 import { createPopup } from "@typeform/embed";
 import "@typeform/embed/build/css/popup.css";
 
-const { toggle } = createPopup("<Wxu3yEyZ>");
+const { toggle } = createPopup("Wxu3yEyZ");
 
 export default function Training() {
 	return (
