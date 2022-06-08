@@ -48,16 +48,20 @@ h1 {
 /* General Use */
 
 .signup {
+	font-family: "Montserrat", sans-serif;
 	margin: 1rem 0;
 	padding: 1rem 2rem;
-	width: 25%;
+	width: 250px;
 	text-align: center;
 	border-radius: 5px;
 	color: white;
 	background: var(--clr-dark);
-	text-decoration: none;
 	font-weight: var(--fw-heavy);
 	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.signup:hover {
+	cursor: pointer;
 }
 
 /* Navigation */
@@ -99,18 +103,6 @@ h1 {
 	text-decoration: underline solid 5px;
 }
 
-.navbar--signup {
-	margin: 0;
-	padding: 1rem 2rem;
-	text-align: center;
-	border-radius: 5px;
-	color: white;
-	background: var(--clr-dark);
-	text-decoration: none;
-	font-weight: var(--fw-heavy);
-	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
-
 @media (max-width: 650px) {
 	.navbar {
 		display: flex;
@@ -136,7 +128,7 @@ h1 {
 }
 
 .hero--img {
-	width: 500px;
+	width: 600px;
 	margin: 2rem;
 }
 
