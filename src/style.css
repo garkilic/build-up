@@ -52,6 +52,7 @@ h1 {
 	font-family: "Montserrat", sans-serif;
 	margin: 1rem 0;
 	padding: 1rem 2rem;
+	font-size: 1rem;
 	width: 250px;
 	text-align: center;
 	border-radius: 5px;
@@ -278,7 +279,7 @@ h1 {
 
 .footer {
 	text-align: center;
-	margin-top: 5rem;
+	margin-top: 3rem;
 }
 
 .footer--links {
