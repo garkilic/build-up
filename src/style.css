@@ -153,7 +153,7 @@ h1 {
 	font-weight: 700;
 }
 
-@media (max-width: 625px) {
+@media (max-width: 800px) {
 	.hero--img {
 		display: none;
 	}
@@ -227,14 +227,6 @@ h1 {
 
 /* Training */
 
-.training--section {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: space-around;
-	gap: 1.9rem;
-}
-
 .training--pricing {
 	padding: 3em 1em;
 	background-color: var(--clr-light);
@@ -243,10 +235,50 @@ h1 {
 	text-align: center;
 	margin: 2em 0;
 	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	width: 100%;
 }
 
-.training--text {
+.pricing--comparison {
+	padding: 3em 1em;
+	color: black;
+	border-radius: 5px;
 	text-align: center;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media (max-width: 1000px) {
+	.pricing--comparison {
+		display: flex;
+		flex-direction: column;
+	}
+	.columns {
+		border-top: black solid 2px;
+		border-bottom: black solid 2px;
+	}
+}
+
+.pricing--comparison ul {
+	list-style-type: none;
+	text-align: center;
+}
+
+@media (min-width: 1001px) {
+	.columns {
+		border-right: black solid 2px;
+		border-left: black solid 2px;
+	}
+}
+
+.pricing--comparison li {
+	margin: 1em 0;
+	font-weight: 700;
+}
+
+.pricing--styling {
+	display: flex;
+	flex-direction: column;
 }
 
 .training--explainer {
@@ -268,6 +300,14 @@ h1 {
 
 .training--list li {
 	padding: 1em 0;
+}
+
+.preferred {
+	color: var(--clr-dark);
+}
+
+.unpreferred {
+	color: tomato;
 }
 
 @media (max-width: 625px) {
